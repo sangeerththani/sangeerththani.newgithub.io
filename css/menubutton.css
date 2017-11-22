@@ -1,0 +1,32 @@
+#menu-box {
+  display: none;
+}
+#menu-button {
+  display: block;
+  position: absolute;
+  left: 30px;
+  width: 32px;
+  height: 25px;
+  margin: 10px;
+}
+#menu-button span,
+#menu-button span:before,
+#menu-button span:after {
+  background-color: black;
+  position: absolute;
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  height: 4px;
+    
+}
+#menu-button span:before {
+  content: '';
+  margin-top: 12px;
+}
+#menu-button span:after {
+  content: '';
+  margin-top: 24px;
+}
+
+
